@@ -1,0 +1,644 @@
+/* For Product Page */
+.container.product {
+    max-width: fit-content;
+}
+
+.product_section {
+    background-color: white;
+    width: 100%;
+    max-width: auto; /* Set maximum width for the container */
+    max-height: auto;
+}
+
+.categories {
+    width: 200px; /* Set a fixed width for the categories tab */
+    margin-right: 20px; /* Space between categories and product list */
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+list-style: none;
+padding: 0;
+}
+
+.categories li {
+margin: 10px 0;
+}
+
+.categories a {
+text-decoration: none;
+color: #3498db;
+font-weight: bold;
+}
+
+.categories a:hover {
+color: #2980b9;
+}
+
+.product_section .product-list {
+width: 100%;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+text-align: center; /* Center vertically */
+flex-direction: column;
+}
+
+.product-cards {
+display: flex;
+justify-content: center; /* Center horizontally */
+flex-wrap: wrap; /* Wrap products to the next line */
+max-width: 1200px; /* Set maximum width for the container */
+width: 100%;
+margin: 0 auto; /* Center the container horizontally */
+}
+
+.product-card {
+border: 1px solid #ddd;
+border-radius: 5px;
+width: 300px;
+margin: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+background-color: white;
+}
+.product-card img {
+width: auto;
+height: 200px;
+}
+.product-card .card-content {
+padding: 15px;
+}
+.product-card .card-title {
+font-size: 1.25em;
+margin: 0 0 10px;
+}
+.product-card .card-description {
+font-size: 0.9em;
+color: #555;
+margin: 0 0 10px;
+}
+.product-card .card-price {
+font-size: 1.1em;
+color: #000;
+margin: 0 0 15px;
+}
+.product-card .card-button {
+text-align: center;
+}
+.product-card .card-button button {
+padding: 10px 20px;
+font-size: 1em;
+color: #fff;
+background-color: #007BFF;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.product-card .card-button button:hover {
+background-color: #0056b3;
+}
+
+/* For Best Product Page */
+.container.best {
+    max-width: fit-content;
+}
+
+.best_section {
+    background-color: white;
+    width: 100%;
+    max-width: auto; /* Set maximum width for the container */
+    max-height: auto;
+    justify-content: center; /* Center horizontally */
+}
+
+.categories {
+    width: 200px; /* Set a fixed width for the categories tab */
+    margin-right: 20px; /* Space between categories and product list */
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+list-style: none;
+padding: 0;
+}
+
+.categories li {
+margin: 10px 0;
+}
+
+.categories a {
+text-decoration: none;
+color: #3498db;
+font-weight: bold;
+}
+
+.categories a:hover {
+color: #2980b9;
+}
+
+.best_section .best-list {
+width: 100%;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+text-align: center; /* Center vertically */
+flex-direction: column;
+}
+
+.best-cards {
+display: flex;
+justify-content: center; /* Center horizontally */
+flex-wrap: wrap; /* Wrap products to the next line */
+max-width: 1200px; /* Set maximum width for the container */
+width: 100%;
+margin: 0 auto; /* Center the container horizontally */
+}
+
+.best-card {
+border: 1px solid #ddd;
+border-radius: 5px;
+width: 350px;
+margin: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+background-color: white;
+}
+.best-card img {
+width: auto;
+height: 275px;
+}
+.product-card .card-content {
+padding: 15px;
+}
+.product-card .card-title {
+font-size: 1.25em;
+margin: 0 0 10px;
+}
+.product-card .card-description {
+font-size: 0.9em;
+color: #555;
+margin: 0 0 10px;
+}
+.product-card .card-price {
+font-size: 1.1em;
+color: #000;
+margin: 0 0 15px;
+}
+.product-card .card-button {
+text-align: center;
+}
+.product-card .card-button button {
+padding: 10px 20px;
+font-size: 1em;
+color: #fff;
+background-color: #007BFF;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.product-card .card-button button:hover {
+background-color: #0056b3;
+}
+
+/* For Service Page */
+.box.service {
+  height: 550px;
+}
+
+.service-box img{
+  width: auto;
+  height: 250px;
+}
+
+/* For Cart Page */
+.cart-image.cart {
+max-width: 100px;
+max-height: 100px;
+width: auto;
+height: auto;
+}
+
+.table.cart {
+background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+border-radius: 10px; /* Rounded corners */
+}
+
+.table.cart th, .table.cart td {
+border: none; /* Remove table borders */
+}
+
+.thead-dark.cart th {
+background-color: rgba(0, 0, 0, 0.7); /* Dark background with 70% opacity */
+}
+
+.container.cart {
+background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+padding: 20px;
+border-radius: 10px; /* Rounded corners for container */
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.btn-primary.cart {
+background-color: #ff5722; /* Custom button color */
+border: none; /* Remove button border */
+}
+
+.sidebar.cart {
+background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+margin-top: 20px;
+}
+
+/* For Schedule Page */
+body {
+background-color: #f8f9fa;
+}
+
+.container.jadwal {
+margin-top: 50px;
+}
+
+.card.jadwal {
+border-radius: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header.jadwal {
+background-color: #051c34;
+color: #fff;
+border-radius: 15px 15px 0 0;
+}
+
+.card-body.jadwal {
+padding: 0; /* Remove padding for card body */
+}
+
+.table.jadwal {
+margin-bottom: 0; /* Remove bottom margin for the table */
+}
+
+.table th,
+.table td {
+padding: 0.75rem; /* Add padding to table cells */
+vertical-align: top; /* Align text to top */
+border-top: 1px solid #dee2e6; /* Add border between rows */
+}
+
+.text-center {
+text-align: center; /* Center align text */
+}
+
+button[type="submit"].btn.jadwal {
+background-color: #051c34;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+button[type="submit"].btn.jadwal:hover {
+background-color: #0056b3;
+}
+/* End of Schedule Page */
+
+/* Start Detail Schedule Page */
+.container.detail {
+background-color: white;
+margin-top: 50px;
+border-radius: 15px; /* Adjust the value as needed */
+padding: 25px; /* Optional: Add some padding for better spacing inside the container */
+}
+
+.cart-image.detail {
+max-width: 100px;
+border-radius: 10px; /* Optional: Add rounded corners to images as well */
+}
+
+/* End Detail Schedule Page */
+
+/* Start Payment Page */
+.container.pembayaran {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#bank-options {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#bank-options.show {
+    display: block;
+    opacity: 1;
+}
+
+.bank-logo {
+    width: 50px; /* Adjust width as needed */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+/* End Payment Page */
+
+/* Proof Page */
+.container.pembuktian {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+/* End Proof Page */
+
+  /* bags section */
+.bags_section {
+    text-align: center;
+  }
+  
+  .bags_section #carouselExampleControls {
+    padding: 0 10%;
+  }
+  
+  .bags_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 45px;
+  }
+  
+  .bags_section .box .img-box {
+    width: 145px;
+  }
+  
+  .bags_section .box .img-box img {
+    width: 100%;
+  }
+  
+  .bags_section .box .detail-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  
+  .bags_section .box .detail-box h4 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .bags_section .box .detail-box p {
+    margin-top: 10px;
+  }
+  
+  .bags_section .carousel_btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .bags_section .carousel-control-prev,
+  .bags_section .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    opacity: 1;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 18px;
+  }
+  
+  .bags_section .carousel-control-prev:hover,
+  .bags_section .carousel-control-next:hover {
+    background-color: #f1db25;
+  }
+  
+  .bags_section .carousel-control-prev {
+    left: 0;
+  }
+  
+  .bags_section .carousel-control-next {
+    left: initial;
+    right: 0;
+  }
+  
+  /* tents section */
+  .tents_section {
+    text-align: center;
+  }
+  
+  .tents_section #carouselExampleControls {
+    padding: 0 10%;
+  }
+  
+  .tents_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 45px;
+  }
+  
+  .tents_section .box .img-box {
+    width: 145px;
+  }
+  
+  .tents_section .box .img-box img {
+    width: 100%;
+  }
+  
+  .tents_section .box .detail-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  
+  .tents_section .box .detail-box h4 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .tents_section .box .detail-box p {
+    margin-top: 10px;
+  }
+  
+  .tents_section .carousel_btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .tents_section .carousel-control-prev,
+  .tents_section .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    opacity: 1;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 18px;
+  }
+  
+  .tents_section .carousel-control-prev:hover,
+  .tents_section .carousel-control-next:hover {
+    background-color: #f1db25;
+  }
+  
+  .tents_section .carousel-control-prev {
+    left: 0;
+  }
+  
+  .tents_section .carousel-control-next {
+    left: initial;
+    right: 0;
+  }
+  
+  /* shoe section */
+  .shoe_section {
+    text-align: center;
+  }
+  
+  .shoe_section #carouselExampleControls {
+    padding: 0 10%;
+  }
+  
+  .shoe_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 45px;
+  }
+  
+  .shoe_section .box .img-box {
+    width: 145px;
+  }
+  
+  .shoe_section .box .img-box img {
+    width: 100%;
+  }
+  
+  .shoe_section .box .detail-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  
+  .shoe_section .box .detail-box h4 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .shoe_section .box .detail-box p {
+    margin-top: 10px;
+  }
+  
+  .shoe_section .carousel_btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .shoe_section .carousel-control-prev,
+  .shoe_section .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    opacity: 1;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 18px;
+  }
+  
+  .shoe_section .carousel-control-prev:hover,
+  .shoe_section .carousel-control-next:hover {
+    background-color: #f1db25;
+  }
+  
+  .shoe_section .carousel-control-prev {
+    left: 0;
+  }
+  
+  .shoe_section .carousel-control-next {
+    left: initial;
+    right: 0;
+  }
